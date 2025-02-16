@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>السيرة الذاتية - محمد حسن رأفت</title>
+    <style>
+        body {
+            font-family: 'Tahoma', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            direction: rtl;
+            text-align: right;
+        }
+        .container {
+            max-width: 900px;
+            background: white;
+            padding: 30px;
+            margin: auto;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            border-bottom: 3px solid #004080;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+        }
+        .header img {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            margin-left: 20px;
+        }
+        .header h1 {
+            margin: 0;
+            color: #004080;
+        }
+        .language-switch {
+            text-align: left;
+            margin-bottom: 10px;
+        }
+        .language-switch button {
+            padding: 8px 15px;
+            cursor: pointer;
+            background: #004080;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        .skills-bar {
+            background: #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        .skills-bar div {
+            height: 20px;
+            background: #004080;
+            text-align: center;
+            color: white;
+        }
+        .english {
+            display: none;
+            direction: ltr;
+            text-align: left;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="language-switch">
+        <button onclick="switchLanguage()">English</button>
+    </div>
+    
+    <div class="container arabic">
+        <div class="header">
+            <img src="me profile.jpg" alt="محمد حسن رأفت">
+            <h1>محمد حسن رأفت</h1>
+        </div>
+        <div class="profile">
+            <h2>البروفايل</h2>
+            <p>مهندس نظم معلومات ومدرس كمبيوتر يتمتع بخبرة تزيد عن 15 عامًا في إدارة تكنولوجيا المعلومات والمؤسسات التعليمية. لدي خبرة واسعة في أجهزة الكمبيوتر والإنترنت، كما أنني حضرت دورة متكاملة في التسويق وإدارة الأعمال، بالإضافة إلى دراستي لدورة (CCNA) في شبكات الكمبيوتر. أقوم بتدريس مواد الكمبيوتر لطلاب المرحلتين الإعدادية والثانوية، كما أدير شبكة الإنترنت الخاصة بالمدرسة. أمتلك مكتبًا لخدمات الكمبيوتر والإنترنت، وقد أعدت تشغيل قناتي على يوتيوب لمساعدة الطلاب والمعلمين وإدارات المدارس على حل المشكلات التقنية خاصة خلال فترة جائحة كورونا في مصر. أبحث عن وظيفة تمكنني من تطوير مهاراتي والاستفادة من قدراتي الاجتماعية والعقلية لخدمة بيئة العمل بكفاءة ودقة.</p>
+        </div>
+        <div class="contact">
+            <h2>التواصل</h2>
+            <p>📞 (+20)1117979279</p>
+            <p>📧 m.h.rafat@gmail.com</p>
+            <div class="social-icons">
+                <a href="https://twitter.com/mhraffat84" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/mhraffat84" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/mhraffat/" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.facebook.com/mhraffat84" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://YouTube.com/@mhraffat84" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="hobbies">
+            <h2>الهوايات</h2>
+            <p>كرة القدم، التعلم، القراءة</p>
+        </div>
+        <div class="experience">
+            <h2>الخبرات العملية</h2>
+            <p>مشرف تكنولوجيا المعلومات ومدرس كمبيوتر - مدارس المنار الدولية (2021 - حتى الآن)</p>
+            <p>مدرس كمبيوتر ومدير شبكات - مدارس مكة الخاصة (2011 - 2021)</p>
+            <p>مالك مركز صيانة الكمبيوتر وخدمات الإنترنت - روزا سي تي (2006 - حتى الآن)</p>
+            <p>منشئ محتوى تعليمي على يوتيوب (2020 - حتى الآن)</p>
+        </div>
+        <div class="skills">
+            <h2>المهارات</h2>
+            <p>إدارة المشكلات: 95%</p>
+            <p>مهارات الاتصال: 96%</p>
+            <p>التعلم السريع: 92%</p>
+            <p>العمل الجماعي: 100%</p>
+        </div>
+        <div class="courses">
+            <h2>الدورات</h2>
+            <p>إدارة الأعمال والتسويق</p>
+            <p>دورة CCNA للشبكات</p>
+            <p>تدريب على Windows Server</p>
+        </div>
+    </div>
+    
+    <div class="container english">
+        <div class="header">
+            <img src="me profile.jpg" alt="Mohammed Hassan Rafat">
+            <h1>Mohammed Hassan Rafat</h1>
+        </div>
+        <div class="profile">
+            <h2>البروفايل</h2>
+            <p>IT engineer and computer teacher with more than 15 years of experience in managing information technology and educational institutions. I have extensive experience in computers and the internet, and I have attended a comprehensive course in marketing and business management, in addition to studying the (CCNA) course in computer networks. I teach computer subjects to preparatory and secondary students, and I manage the school's internet network. I own a computer and internet services office, and I have relaunched my YouTube channel to help students, teachers, and school administrators solve technical issues, especially during the COVID-19 period in Egypt. I am looking for a job that enhances my skills and allows me to utilize my social and intellectual abilities to serve the work environment efficiently and accurately.</p>
+        </div>
+        <div class="contact">
+            <h2>التواصل</h2>
+            <p>📞 (+20)1117979279</p>
+            <p>📧 m.h.rafat@gmail.com</p>
+            <div class="social-icons">
+                <a href="https://twitter.com/mhraffat84" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/mhraffat84" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/mhraffat/" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.facebook.com/mhraffat84" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://YouTube.com/@mhraffat84" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="hobbies">
+            <h2>Hobbies</h2>
+            <p>Football, Learning, Reading</p>
+        </div>
+        <div class="experience">
+            <h2>Work Experience</h2>
+            <p>IT & Computer Supervisor - Al-Manar Int. Schools (2021 - Present)</p>
+            <p>IT & Computer Teacher - Macca Private Schools (2011 - 2021)</p>
+            <p>Owner of Rosa CT - Computer & Internet Services (2006 - Present)</p>
+            <p>YouTube Content Creator (2020 - Present)</p>
+        </div>
+        <div class="skills">
+            <h2>Skills</h2>
+            <p>Management Problems: 95%</p>
+            <p>Communication Skills: 96%</p>
+            <p>Fast Learning: 92%</p>
+            <p>Teamwork: 100%</p>
+        </div>
+        <div class="courses">
+            <h2>Courses</h2>
+            <p>Marketing & Business Management</p>
+            <p>CCNA Networking Training</p>
+            <p>Windows Server Training</p>
+        </div>
+    </div>
+    
+    <script>
+        function switchLanguage() {
+            var arabicSection = document.querySelector('.arabic');
+            var englishSection = document.querySelector('.english');
+            var button = document.querySelector('.language-switch button');
+            
+            if (arabicSection.style.display === 'none') {
+                arabicSection.style.display = 'block';
+                englishSection.style.display = 'none';
+                button.textContent = 'English';
+            } else {
+                arabicSection.style.display = 'none';
+                englishSection.style.display = 'block';
+                button.textContent = 'العربية';
+            }
+        }
+    </script>
+</body>
+</html>
